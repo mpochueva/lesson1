@@ -1,5 +1,5 @@
 def format_price(price):
-    return "Цена: " + str(round(price)) + " руб."
+    return "Цена: %s руб." % str(round(price))
 
 
 display_price = format_price(56.24)
