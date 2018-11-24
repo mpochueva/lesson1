@@ -12,6 +12,6 @@ price2 = 500
 vat_rate2 = 10
 get_vat(price2, vat_rate2)
 
-get_vat(50, 5)
-get_vat(abs(-100), 18)
+get_vat(50, '5')
+get_vat(-100, 18)
 
